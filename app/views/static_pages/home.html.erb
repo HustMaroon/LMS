@@ -1,0 +1,15 @@
+<%provide(:title, "Home")%>
+  <div class="center jumbotron">
+    <h1>Welcome to the WOW! LMS</h1>
+
+    <h2>
+      Let's make your learning fun!
+    </h2>
+
+    <%= link_to "Log in", '#', class: "btn btn-lg btn-primary" %>
+    <p>or</p>
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+  </div>
+
+  <%= link_to image_tag("rails.png", alt: "Rails logo"),
+              'http://rubyonrails.org/' %>
